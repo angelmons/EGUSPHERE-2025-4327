@@ -50,4 +50,4 @@ If you use the data or scripts in this repository, please cite:
 
 Monsalve, A. and Link, O.: Grain roughness controls on velocity and bed stress fields around a fully protruding obstacle in supercritical flow, EGUsphere, 2025, https://doi.org/10.5194/egusphere-2025-4327.
 
-A Zenodo DOI for this repository will be added after archival.
+The archived repository is available on Zenodo: https://doi.org/10.5281/zenodo.20650590
