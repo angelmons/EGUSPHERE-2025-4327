@@ -1,0 +1,127 @@
+WALL SHEAR STRESS MAGNITUDE STATISTICS REPORT (POLYGON FILTER)
+================================================================================
+
+Analysis Parameters:
+  Case: 3 (case3_rough_scour\it0_k_tau)
+  Input file: C:\Research\openFOAM\superCritical\case3_rough_scour\it0_k_tau\tauValues.csv
+  Polygon vertices: 18 points
+  Polygon center: (0.024938, 0.007990)
+  Polygon bounds: X=[-0.085180, 0.170827], Y=[-0.092820, 0.087986]
+  Analysis date: 2025-07-10 17:27:00.537471
+  WSS magnitude calculated from components
+
+Polygon Vertices:
+  Vertex 1: (0.005400, 0.085046)
+  Vertex 2: (-0.040333, 0.074519)
+  Vertex 3: (-0.064546, 0.051747)
+  Vertex 4: (-0.085180, 0.029184)
+  Vertex 5: (-0.076202, 0.002642)
+  Vertex 6: (-0.065972, -0.027797)
+  Vertex 7: (-0.063573, -0.054931)
+  Vertex 8: (-0.011339, -0.077248)
+  Vertex 9: (0.025321, -0.083938)
+  Vertex 10: (0.046718, -0.092323)
+  Vertex 11: (0.065486, -0.092820)
+  Vertex 12: (0.137820, -0.053220)
+  Vertex 13: (0.170827, -0.002597)
+  Vertex 14: (0.167224, 0.049598)
+  Vertex 15: (0.125528, 0.084324)
+  Vertex 16: (0.090798, 0.087986)
+  Vertex 17: (0.025145, 0.083761)
+  Vertex 18: (-0.004234, 0.079885)
+
+BASIC:
+  count: 560364
+  mean: 0.0011523257845862597
+  median: 0.0006858024455852029
+  std: 0.0013234286015176137
+  variance: 1.7514632633148668e-06
+  min: 9.013147582972052e-07
+  max: 0.024524451990009067
+  range: 0.02452355067525077
+
+PERCENTILES:
+  p1: 5.271257441356593e-05
+  p5: 0.00011609187125708473
+  p10: 0.00017190853414644089
+  p20: 0.0002734196975892518
+  p25: 0.0003277849877309908
+  p30: 0.0003872060249759206
+  p40: 0.0005218841729640345
+  p50: 0.0006858024455852029
+  p60: 0.0009047187918321413
+  p70: 0.0012144452505913764
+  p75: 0.0014288307268376385
+  p80: 0.0017082542496846057
+  p90: 0.002744738840003668
+  p95: 0.003937948048833935
+  p99: 0.006475913696066815
+  p99.9: 0.009356775260804574
+
+ADVANCED:
+  skewness: 2.6030759161061425
+  kurtosis: 9.402540020311505
+  coefficient_of_variation: 1.1484847594491587
+  interquartile_range: 0.0011010457391066478
+  median_absolute_deviation: 0.00043837548143143185
+  root_mean_square: 0.0017547976668424948
+
+DISTRIBUTION:
+  mode: 9.013147582972052e-07
+  geometric_mean: 0.0006780655944479041
+  harmonic_mean: 0.0003720675833169993
+  trimmed_mean_5: 0.0009704126378428282
+  trimmed_mean_10: 0.0008788889824098303
+  trimmed_mean_20: 0.000776558743241535
+
+WSS_FLOW_METRICS:
+  stress_variability_index: 1.1484847594491587
+  excess_stress_magnitude: 253.1733046264038
+  deficit_stress_magnitude: 253.17330462640382
+  high_stress_fraction: 0.1322533210555996
+  low_stress_fraction: 0.43588453219692913
+  peak_to_rms_ratio: 13.975657965249793
+  stress_concentration_factor: 21.282568105350972
+  uniformity_index: -0.14848475944915873
+
+COMPONENT_ANALYSIS:
+  x_component:
+    mean: -0.00028371264362621524
+    std: 0.0011309415720620597
+    min: -0.017137173563
+    max: 0.023007351905
+    abs_mean: 0.0007134985659608498
+  y_component:
+    mean: -7.783752876349712e-06
+    std: 0.0010163281869695247
+    min: -0.0094091081992
+    max: 0.011392069049
+    abs_mean: 0.0005621048369186109
+  z_component:
+    mean: -0.0002691762673321784
+    std: 0.0007838105235401753
+    min: -0.01269014366
+    max: 0.0057284757495
+    abs_mean: 0.0004460631791436567
+  dominant_direction:
+    dominant_direction: x
+    x_fraction: 0.4144231951824394
+    y_fraction: 0.3264887887050033
+    z_fraction: 0.25908801611255716
+    anisotropy_index: 0.2227359516623285
+
+SPATIAL:
+  mean_distance_from_center: 0.06834398521743115
+  max_distance_from_center: 0.14808471664293668
+  center_vs_edge:
+    center_mean_wss: 0.0014254572485637902
+    edge_mean_wss: 0.0007746219179846847
+    center_std_wss: 0.0015706154508245455
+    edge_std_wss: 0.0007186000645347571
+    center_edge_ratio: 1.8401974117545863
+  distance_gradient: 0.0016107560814208736
+
+VERTICAL_PROFILE:
+  vertical_variation: 0.0005776015731735288
+  z_gradient: -0.003769344007042075
+

@@ -1,0 +1,3 @@
+The following files were cut to maintain a manageable size:
+- kValues.csv (Original: 196.83MB -> cut_kValues.csv: 50MB)
+- tke_data.csv (Original: 161.47MB -> cut_tke_data.csv: 50MB)

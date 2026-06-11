@@ -1,0 +1,64 @@
+TURBULENT KINETIC ENERGY STATISTICS REPORT
+================================================================================
+
+Analysis Parameters:
+  Input file: C:\Research\openFOAM\superCritical\case1_smooth_flat\it1_k_tau\kValues.csv
+  Cylinder center: (0.0, 0.0)
+  Cylinder radius: 0.12 m
+  Analysis date: 2025-07-09 11:54:28.628354
+
+BASIC:
+  count: 2016181
+  mean: 0.0015399142845359743
+  median: 0.00091550685465
+  std: 0.0015589297648624682
+  variance: 2.43026201177415e-06
+  min: 4.7545065172e-05
+  max: 0.023789796978
+  range: 0.023742251912828
+
+PERCENTILES:
+  p1: 8.0510202679e-05
+  p5: 0.00012483028695
+  p10: 0.00014810888388
+  p20: 0.00017532733909
+  p25: 0.00022399205773
+  p30: 0.00030087152845
+  p40: 0.00052223587409
+  p50: 0.00091550685465
+  p60: 0.0014866478741
+  p70: 0.0022273084614
+  p75: 0.0026072114706
+  p80: 0.0029828692786
+  p90: 0.0038117014337
+  p95: 0.0043878355063
+  p99: 0.0060249994509
+  p99.9: 0.009666876345898483
+
+ADVANCED:
+  skewness: 1.3054842293618765
+  kurtosis: 2.4011759398914645
+  coefficient_of_variation: 1.0123484018022626
+  interquartile_range: 0.0023832194128699997
+  median_absolute_deviation: 0.00076070772775
+  root_mean_square: 0.0021912548951438966
+
+DISTRIBUTION:
+  mode: 6.9620757131e-05
+  geometric_mean: 0.0007956208739153612
+  harmonic_mean: 0.00038568465067503183
+  trimmed_mean_10: 0.0013151337969886147
+  trimmed_mean_20: 0.0011629867861782063
+
+TURBULENCE_METRICS:
+  turbulent_intensity: 0.032040747853693784
+  energy_above_mean: 1298.9685571307132
+  high_energy_fraction: 0.18745688011145825
+  low_energy_fraction: 0.4691314916666708
+
+SPATIAL:
+  mean_radial_distance: 0.06687884361801835
+  tke_center_vs_edge:
+    center_mean_tke: 0.0017823494087012297
+    edge_mean_tke: 0.0013384770845730216
+

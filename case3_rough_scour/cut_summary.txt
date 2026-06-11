@@ -1,0 +1,5 @@
+The following files were cut to maintain a manageable size:
+- kValues.csv (Original: 718.91MB -> cut_kValues.csv: 50MB)
+- tauValues.csv (Original: 108.61MB -> cut_tauValues.csv: 50MB)
+- tke_data.csv (Original: 608.06MB -> cut_tke_data.csv: 50MB)
+- tke_data_polygon.csv (Original: 518.51MB -> cut_tke_data_polygon.csv: 50MB)

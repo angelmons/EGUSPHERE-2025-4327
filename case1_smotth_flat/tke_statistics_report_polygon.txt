@@ -1,0 +1,101 @@
+TURBULENT KINETIC ENERGY STATISTICS REPORT (POLYGON FILTER)
+================================================================================
+
+Analysis Parameters:
+  Case: 1 (case1_smooth_flat\it1_k_tau)
+  Input file: C:\Research\openFOAM\superCritical\case1_smooth_flat\it1_k_tau\kValues.csv
+  Polygon vertices: 18 points
+  Polygon center: (0.024938, 0.007990)
+  Polygon bounds: X=[-0.085180, 0.170827], Y=[-0.092820, 0.087986]
+  Analysis date: 2025-07-10 18:12:32.577836
+
+Polygon Vertices:
+  Vertex 1: (0.005400, 0.085046)
+  Vertex 2: (-0.040333, 0.074519)
+  Vertex 3: (-0.064546, 0.051747)
+  Vertex 4: (-0.085180, 0.029184)
+  Vertex 5: (-0.076202, 0.002642)
+  Vertex 6: (-0.065972, -0.027797)
+  Vertex 7: (-0.063573, -0.054931)
+  Vertex 8: (-0.011339, -0.077248)
+  Vertex 9: (0.025321, -0.083938)
+  Vertex 10: (0.046718, -0.092323)
+  Vertex 11: (0.065486, -0.092820)
+  Vertex 12: (0.137820, -0.053220)
+  Vertex 13: (0.170827, -0.002597)
+  Vertex 14: (0.167224, 0.049598)
+  Vertex 15: (0.125528, 0.084324)
+  Vertex 16: (0.090798, 0.087986)
+  Vertex 17: (0.025145, 0.083761)
+  Vertex 18: (-0.004234, 0.079885)
+
+BASIC:
+  count: 1708375
+  mean: 0.0016099972079875213
+  median: 0.0010596589418
+  std: 0.0015442341486145582
+  variance: 2.3846591057473295e-06
+  min: 6.5680673288e-05
+  max: 0.023789796978
+  range: 0.023724116304712
+
+PERCENTILES:
+  p1: 0.000106026810828
+  p5: 0.000146899507669
+  p10: 0.00016653695493
+  p20: 0.00027194868307800013
+  p25: 0.000341245206075
+  p30: 0.0004297719278819999
+  p40: 0.0006752868997860001
+  p50: 0.0010596589418
+  p60: 0.0015776791842799995
+  p70: 0.002239714749159997
+  p75: 0.00259118305985
+  p80: 0.0029448132030600004
+  p90: 0.003795926971360001
+  p95: 0.004493289813389999
+  p99: 0.006277398746484003
+  p99.9: 0.00987966001969476
+
+ADVANCED:
+  skewness: 1.4017109718475165
+  kurtosis: 3.042185118054328
+  coefficient_of_variation: 0.9591533084363754
+  interquartile_range: 0.002249937853775
+  median_absolute_deviation: 0.00085270465932
+  root_mean_square: 0.0022308627747154174
+
+DISTRIBUTION:
+  mode: 0.00015848148905
+  geometric_mean: 0.0009231499262440054
+  harmonic_mean: 0.0004884619790319978
+  trimmed_mean_5: 0.001470327513273823
+  trimmed_mean_10: 0.001387390752079602
+  trimmed_mean_20: 0.0012573051173224944
+
+TURBULENCE_METRICS:
+  turbulent_intensity: 0.032761737926912254
+  energy_variability_index: 0.9591533084363754
+  excess_energy_magnitude: 1069.744084633482
+  deficit_energy_magnitude: 1069.744084633484
+  high_energy_fraction: 0.16351737762493598
+  low_energy_fraction: 0.43771654349893907
+  peak_to_rms_ratio: 10.663944572312285
+  energy_concentration_factor: 14.77629703950666
+  uniformity_index: 0.04084669156362464
+
+SPATIAL:
+  mean_distance_from_center: 0.06429512784212799
+  max_distance_from_center: 0.14808849808957444
+  center_vs_edge:
+    center_mean_tke: 0.0017277472702929818
+    edge_mean_tke: 0.0013947258387682336
+    center_std_tke: 0.0016086287442742344
+    edge_std_tke: 0.0013934837257787865
+    center_edge_ratio: 1.2387719666962358
+  distance_gradient: -0.01426966663469694
+
+VERTICAL_PROFILE:
+  vertical_variation: 0.0007216796838608703
+  z_gradient: -0.024917634431411526
+
